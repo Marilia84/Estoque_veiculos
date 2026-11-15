@@ -1,4 +1,4 @@
-# carroProject — Sistema Automotivo: Gestão de Estoque de Veículos
+# Estoque_veiculos — Sistema Automotivo: Gestão de Estoque de Veículos
 
 API REST em Java 17 + Spring Boot 3 + MySQL.
 
@@ -23,8 +23,4 @@ API REST em Java 17 + Spring Boot 3 + MySQL.
 | PUT | /veiculos/{id} | atualiza preço, quilometragem, status |
 | DELETE | /veiculos/{id} | remove |
 
-Exemplo de veículo:
-```json
-{ "modeloId": 1, "ano": 2020, "cor": "Prata", "preco": 42500.00, "quilometragem": 38000, "status": "DISPONIVEL" }
-```
 Status possíveis: DISPONIVEL, VENDIDO, RESERVADO.
